@@ -1,6 +1,14 @@
-To simplify installation, you might want to use Docker.  Here is the command I use to start the Jupyter server.
+This is a collection of R notebooks to supplement a class on the analysis of disrete data.
+
+You can view the notebooks just by navigating to them.  If you'd like to run and  modify them, you'll need to install Jupyter with an R kernel on your local machine.  To simplify installation, you might want to use Docker.  Once you install Docker, and checkout this repository, you can start the Jupyter server with the following command.
 
 ```bash
 docker run -d -p 8888:8888  -v /home/jason/Dropbox/504notebooks:/home/jovyan/work jupyter/datascience-notebook 
 ```
-The -v flag mounts the local directory /home/jason/Dropbox/504notebooks to the working director /home/jovyan/work inside the container.  For you the first directory will be wherever you checked out the 504notebooks repository.
+Then open localhost:8888 in your browser.
+
+The -v flag mounts the local directory /home/jason/Dropbox/504notebooks to the working director /home/jovyan/work inside the container.  For you the first directory will be wherever you checked out this 504notebooks repository.
+
+Note that the code in these notebooks is intended to explain the concepts. There is usually a faster, built-in, or more elegant way to accomplish the same ends.
+
+The [course notes are available as well](https://onlinecourses.science.psu.edu/stat504/) and generally correspond closely to these notebooks.
