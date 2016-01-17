@@ -7,8 +7,8 @@ docker run -d -p 8888:8888  -v /home/jason/Dropbox/504notebooks:/home/jovyan/wor
 ```
 Then open localhost:8888 in your browser.
 
-The -v flag mounts the local directory /home/jason/Dropbox/504notebooks to the working director /home/jovyan/work inside the container.  For you the first directory will be wherever you checked out this 504notebooks repository.
+The -v flag mounts the local directory (for me it is /home/jason/Dropbox/504notebooks) to the working directory /home/jovyan/work inside the docker container.  For you the first directory will be wherever you checked out this 504notebooks repository.
 
 Note that the code in these notebooks is intended to explain the concepts. There is usually a faster, built-in, or more elegant way to accomplish the same ends.
 
-The [course notes are available as well](https://onlinecourses.science.psu.edu/stat504/) and generally correspond closely to these notebooks.
+The [course notes are freely available](https://onlinecourses.science.psu.edu/stat504/) and generally correspond closely to these notebooks.
