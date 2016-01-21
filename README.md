@@ -1,4 +1,4 @@
-This is a collection of R notebooks to supplement a class on the analysis of disrete data.
+This is a collection of R notebooks to supplement a class on the analysis of discrete data.
 
 You can view the notebooks just by navigating to them.  If you'd like to run and  modify them, you'll need to install Jupyter with an R kernel on your local machine.  To simplify installation, you might want to use Docker.  Once you install Docker, and checkout this repository, you can start the Jupyter server with the following command.
 
